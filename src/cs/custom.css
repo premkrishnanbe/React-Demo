@@ -1,0 +1,169 @@
+      
+            html{
+              scroll-behavior: smooth;
+          }
+          .anc_hover:hover{
+              text-decoration: none;
+          }
+          .homebg
+          {
+              margin: 7% 0 7% 0;
+          }
+          .cd1,.ab1{
+              margin: 15px;
+              padding: 5px;
+              
+          }
+          .ab2{
+              padding: 40px;
+
+          }
+          li{
+              list-style-type: none;
+          }
+          .tm{
+              margin: 7px;
+              padding: 10px 20px;
+          }
+          .rc{
+              height:100px;
+              width: 100px;
+          }
+          #services{
+              background-color: rgba(234, 240, 247, 0.568);
+          }
+          .se{
+              margin: 10px;
+              padding: 15px;
+          }
+          .cta{
+              background-color: #6599ac
+          }
+          .gl{
+              padding:15px 0;
+          }
+          .poat:hover{
+              text-decoration: none;
+              
+          }
+          .poat{
+              padding:0 15px;
+          }
+          #trans_zoom:hover{
+              -webkit-transition: all .5s ease-in-out; 
+              transform: scale(1.14);
+              z-index: 1;
+              
+          }
+          .tmm{
+              padding:20px
+          }
+          .tmml{
+              line-height: 1.2rem;
+          }
+          .tmmc:hover{
+              -webkit-transition: all .5s ease-in-out;  
+              transform: scale(1.14);
+              z-index: 1;
+              
+          
+          }
+          #fo_trans{
+              -webkit-transition: all .5s ease-in-out;  
+          }
+          .carousel-cell::before {
+              display: block;
+}
+
+.bwe {
+  /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+    filter: gray; /* IE5+ */
+    -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: all .4s ease-in-out;  
+  }
+
+  .bwe:hover {
+  filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+  }
+
+
+  #all{
+      display: none;
+  }
+
+
+
+
+
+
+
+
+  .gallery-title
+{
+  font-size: 36px;
+  color: #42B32F;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 70px;
+}
+.gallery-title:after {
+  content: "";
+  position: absolute;
+  width: 7.5%;
+  left: 46.5%;
+  height: 45px;
+  border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+  font-size: 18px;
+  border: 1px solid #42B32F;
+  border-radius: 5px;
+  text-align: center;
+  color: #42B32F;
+  margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+  font-size: 18px;
+  border: 1px solid #42B32F;
+  border-radius: 5px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+  background-color: #42B32F;
+  color: white;
+}
+
+.port-image
+{
+  width: 100%;
+}
+
+.gallery_product
+{
+  margin-bottom: 30px;
+}
+
+#App_1,#Card_1,#Web_1{
+  display: none;
+}
+
+.navBarCustom{
+  padding-left:0px;
+  z-index:0;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+table,th,td {  
+    font-family:sans-serif;
+     
+      padding:.25em .5em;
+      text-align:left;
+      
+    }
+    td {
+      background-color:#eee;    
+    }
+    th {
+      background-color:#009;
+      color:#fff;
+    }
+    td {
+      background-color:#eee;    
+    }
+    th {
+      background-color:#009;
+      color:#fff;
+    }
+    .cowinbody{
+      
+        margin: auto;
+        width: 80%;
+        padding: 10px;
+      
+    }
