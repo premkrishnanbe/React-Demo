@@ -1,9 +1,11 @@
 #React Demo
 
 
-Preview
-![alt txt](<https://github.com/premkrishnanbe/React-Demo/blob/main/public/prev1.JPG>)
-<img src="https://github.com/premkrishnanbe/React-Demo/blob/main/public/prev1.JPG" width="600px" height="300px">
+# Some Preview screens
+
+<img src="https://github.com/premkrishnanbe/React-Demo/blob/main/public/prev1.JPG" width="600px" height="400px">
+<img src="https://github.com/premkrishnanbe/React-Demo/blob/main/public/prev2.JPG" width="600px" height="400px">
+<img src="https://github.com/premkrishnanbe/React-Demo/blob/main/public/prev3.JPG" width="600px" height="400px">
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
