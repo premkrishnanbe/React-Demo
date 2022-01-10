@@ -1,6 +1,6 @@
 table,th,td {  
     font-family:sans-serif;
-     
+     table-layout: fixed;
       padding:.25em .5em;
       text-align:left;
       
@@ -13,7 +13,8 @@ table,th,td {
       color:#fff;
     }
     td {
-      background-color:#eee;    
+      background-color:#eee; 
+      width:200px   ;
     }
     th {
       background-color:#009;

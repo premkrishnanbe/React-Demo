@@ -22,7 +22,7 @@ import {
 import CowinApi from './components/CowinApi';
 import CowinFn from './components/CowinFn';
 import InvalidError from './components/InvaildError';
-import { Register } from './components/Register';
+import { ViewDataContent } from './components/ViewDataContent';
 
 const routing = <>
 <div className='container'>
@@ -37,7 +37,7 @@ const routing = <>
 <Route path="home" element={<WebLayout />} />
 <Route path="cowin" element={<CowinApi />} />
 <Route path="cowinfn" element={<CowinFn />} />
-<Route path="temp" element={<Register />} />
+<Route path="read" element={<ViewDataContent/>} />
 <Route path="*" element={<InvalidError />} />
   
 </Routes>
