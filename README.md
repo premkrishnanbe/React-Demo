@@ -3,7 +3,7 @@
 
 Preview
 ![alt txt](<https://github.com/premkrishnanbe/React-Demo/blob/main/public/prev1.JPG>)
-<img src="https://github.com/premkrishnanbe/React-Demo/blob/main/public/prev1.JPG" width="400px" height="300px">
+<img src="https://github.com/premkrishnanbe/React-Demo/blob/main/public/prev1.JPG" width="600px" height="300px">
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
