@@ -18,9 +18,12 @@ class CowinApi extends react.Component{
             this.setState({
               items:data.sessions
             });
-            console.log("test", this.state.sessions)});
+            console.log("test", this.state.items.length)});
 
            /// alert(this.state.items[0].center_id);
+      }
+      componentDidMount(){
+        this.retriveData();
       }
       
     
@@ -67,7 +70,7 @@ class CowinApi extends react.Component{
                      <th>Avail Timings</th>
                    </tr>
                  </thead>
-           {this.state.items? item.map(it =>(
+           {this.state.items.length>0? item.map(it =>(
               <tbody>
                 <tr key={item.center_id}>
                   <td>{it.center_id}</td>

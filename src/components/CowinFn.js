@@ -1,15 +1,17 @@
-import react, { useState } from "react";
+import react, { useEffect, useState } from "react";
 
 
 function CowinFn(){
     
 const [item,setItem]=useState([]);
-const [value,setValue]=useState(637001);
+const [value,setValue]=useState(600026);
 
-
+useEffect(() => {
+ retriveData();
+}, []);
       const retriveData=()=>{
-        let pin=value;
-          fetch('https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode='+pin+'&date=31-03-2021')
+        
+          fetch('https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode='+value+'&date=31-03-2021')
           .then(res => res.json())
           .then(data=>{
               setItem(data.sessions); 
@@ -56,7 +58,7 @@ const [value,setValue]=useState(637001);
                      <th>Avail Timings</th>
                    </tr>
                  </thead>
-           {item ? item.map(it =>(
+           {item.length>0 ? item.map(it =>(
               <tbody>
                 <tr key={item.center_id}>
                   <td>{it.center_id}</td>

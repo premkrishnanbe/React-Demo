@@ -1,11 +1,7 @@
 import react from "react";
-import Header from "./Header";
-import Home from "./Home";
-import About from "./About";
-import Service from "./Service";
-import Portfolio from "./Portfolio";
-import Footer from "./Footer";
-import Team from "./Team";
+import {Home,Header,About,Portfolio,Team,Footer,Service} from './Home'
+
+
 
 class WebLayout extends react.Component{
 
