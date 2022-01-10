@@ -1,5 +1,5 @@
 # React Demo
-# Components
+## Components
 NavBar.js       --> Its Contains navigation Bar and Base Layout.\
 Home.js         --> Its Contains block of Layout just made up of the Named Anchor Concept..\
 WebLayout.js    --> Its used to render the all the functional components present in the Home.js .\
