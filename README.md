@@ -1,7 +1,8 @@
 #React Demo
 
 
-
+Preview
+![alt txt](<https://github.com/premkrishnanbe/React-Demo/blob/main/public/13109961.jpg>)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
