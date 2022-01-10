@@ -6,15 +6,15 @@ Home.js         --> Its Contains block of Layout just made up of the Named Ancho
 
 WebLayout.js    --> Its used to render the all the functional components present in the Home.js
 
-CowinApi        --> Its uses the class component and its Props to fetch the data from API and display the View.
+CowinApi.js        --> Its uses the class component and its Props to fetch the data from API and display the View.
 
-CowinFn         --> Its uses the Functional Component and Hooks to to fetch the data from API and display the View.
+CowinFn.js         --> Its uses the Functional Component and Hooks to to fetch the data from API and display the View.
 
-Register        --> Its have a form and validate by Formik Js library and the form data will be Inserted into the local server table through the WEB API.
+Register.js        --> Its have a form and validate by Formik Js library and the form data will be Inserted into the local server table through the WEB API.
 
-ViewDataContent --> Its uses the Func Comp and useState,UseEffect to fetch the data from local Server through the WEB API and Display the View.
+ViewDataContent.js --> Its uses the Func Comp and useState,UseEffect to fetch the data from local Server through the WEB API and Display the View.
 
-InvalidError    --> Whenever the User try to access the Invalid Url, its displays the some error mesage as view and home Page Link.
+InvalidError.js    --> Whenever the User try to access the Invalid Url, its displays the some error mesage as view and home Page Link.
 
 
 # Some Preview screens
