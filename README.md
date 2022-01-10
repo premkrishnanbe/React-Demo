@@ -1,8 +1,11 @@
 # React Demo
 ## Components
 NavBar.js       --> Its Contains navigation Bar and Base Layout.\
+
 Home.js         --> Its Contains block of Layout just made up of the Named Anchor Concept..\
+
 WebLayout.js    --> Its used to render the all the functional components present in the Home.js .\
+
 CowinApi        --> Its uses the class component and its Props to fetch the data from API and display the View.\
 CowinFn         --> Its uses the Functional Component and Hooks to to fetch the data from API and display the View.\
 Register        --> Its have a form and validate by Formik Js library and the form data will be Inserted into the local server table through the WEB API.\
