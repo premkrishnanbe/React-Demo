@@ -76,10 +76,12 @@ const validateEmployee = empData => {
     });
   
     return (<>
+      
       {bool ?(<div>
           <br></br>
           <br></br>
-        <h2>New Application Form...</h2>
+        <h4>Insert using Web Api with the Functional Components</h4>
+        <h2>Register Form...</h2>
         
     <form className="text-primary" onSubmit={formik.handleSubmit}>
           <p>

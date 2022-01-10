@@ -45,7 +45,7 @@ export const ViewDataContent = () => {
     return <>
 
         <div className='container'>
-            <h4>Insert using Web Api with the Functional Components</h4>
+            <h4>Retrieval of data using Web Api with the Functional Components</h4>
             <h5>Employee List ( Dummy Data static) </h5>
             <div className='row'>
                 <DummyData />

@@ -30,7 +30,7 @@ useEffect(() => {
          
           <br></br>
           <br></br>
-    <h1>Covin Slot Availability Check By Pincode</h1>
+    <h3>Covin Availability Centers check By Pincode</h3>
     
      <label>Enter Your Pincode
           </label>
